@@ -3,7 +3,6 @@ package com.tengen;
 import com.mongodb.*;
 import com.mongodb.util.JSON;
 import org.bson.BSON;
-import org.json.JSONObject;
 
 import java.net.UnknownHostException;
 import java.util.*;
@@ -19,9 +18,6 @@ public class Week3Homework1 {
 
         long count = students.count();
         System.out.println(count);
-
-        JSONObject json;
-
 
 
 //        for (int i = 0; i < count; i++) {
